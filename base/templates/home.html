@@ -1,0 +1,10 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<div>
+    {% comment %}侧边导航栏{% endcomment %}
+    {% include 'nav.html' %}
+    <a href="{% url 'login' %}">login</a>
+
+</div>
+{% endblock %}
